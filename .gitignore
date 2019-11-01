@@ -1,0 +1,9 @@
+tmp
+json
+xml
+venv
+env
+*.zip
+.nopyenv
+__pycache__
+

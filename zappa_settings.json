@@ -1,0 +1,7 @@
+{
+    "dev": {
+        "s3_bucket": "hmrc2csvapp",
+        "app_function": "hmrc2csv.app",
+        "keep_warm": false
+    }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <title>{{ title }}</title>
+      <style>
+        select:required:invalid {
+          color: gray;
+        }
+        option[value=""][disabled] {
+          display: none;
+        }
+        option {
+          color: black;
+        }
+        .field-line {
+          margin: 0.5em;
+        }
+      </style>
+  </head>
+
+  <body>
+      {% block content %}{% endblock %}
+  </body>
+</html>
